@@ -1,0 +1,8 @@
+/*This is for all css link with one*/
+@import url('custom/fonts.css');
+@import url('custom/accordion.css');
+@import url('custom/form.css');
+@import url('custom/header.css');
+@import url('custom/quicktab.css');
+@import url('bootstrap/bootstrap.min.css');
+@import url('custom/select2.min.css');
