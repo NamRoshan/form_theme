@@ -50,7 +50,7 @@
 								 <option value="1">BCA</option>
 	                             <option value="2">BBA</option>
 	                             </select>
-	                             <span class="focus-input2" data-placeholder="Degree"></span>
+	                             <span class="focus-input2 cstm-top" data-placeholder="Degree"></span>
 							 </div>
 						</div>
 					
@@ -71,16 +71,23 @@
 					   </div>
 					  </div>
 					  <div class="row">
-					  	<div class="col-6">
+					  	<div class="col-1">
+					  	  <label>From</label>	
+					  	</div>
+					  	
+					  	<div class="col-5">
 						  <div class="wrap-input2 validate-input" data-validate="Date is required">
-					  	    <label>From</label>
 							<input class="input2" type="date" name="from" >
+							<span class="focus-input2"></span>
 						</div>
 					  	</div>
-					  	<div class="col-6">
+					 	<div class="col-1">
+					  	  <label>To</label>	
+					  	</div>
+					  	<div class="col-5">
 						<div class="wrap-input2 validate-input" data-validate="Date is required">
-					  	    <label>To</label>
 							<input class="input2" type="date" name="To" >
+							<span class="focus-input2"></span>
 						</div>
 					  	</div>
 					  </div>
@@ -130,16 +137,23 @@
 					   </div>
 					  </div>
 					  <div class="row">
-					  	<div class="col-6">
+					  	<div class="col-1">
+					  	  <label>From</label>	
+					  	</div>
+					  	
+					  	<div class="col-5">
 						  <div class="wrap-input2 validate-input" data-validate="Date is required">
-					  	    <label>From</label>
 							<input class="input2" type="date" name="from" >
+							<span class="focus-input2"></span>
 						</div>
 					  	</div>
-					  	<div class="col-6">
+					 	<div class="col-1">
+					  	  <label>To</label>	
+					  	</div>
+					  	<div class="col-5">
 						<div class="wrap-input2 validate-input" data-validate="Date is required">
-					  	    <label>To</label>
 							<input class="input2" type="date" name="To" >
+							<span class="focus-input2"></span>
 						</div>
 					  	</div>
 					  </div>
@@ -175,7 +189,7 @@
 	  		<div class="col-md-4">
 			  <div class="cstm-accordion">
 			  	<button class="accordion active">Reviews</button>
-				<div class="panel panel-active" >
+				<div class="panel panel-active" style="  max-height: calc(100% - 100px);">
                  <div class="e-box -background-light -radius-bottom h-p2">
 			      <div class="media fixed-layout">
 			        <div class="media__item">

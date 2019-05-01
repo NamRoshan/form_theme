@@ -42,8 +42,8 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.panel-active{
-  max-height: calc(100% - 100px) !important;
+.cstm-accordion .panel-active{
+
   overflow: auto;
 }
 
